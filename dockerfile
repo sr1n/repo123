@@ -1,0 +1,4 @@
+FROM java:20
+WORKDIR /app
+COPY . .
+EXPOSE 5000
